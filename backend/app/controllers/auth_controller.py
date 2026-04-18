@@ -1,4 +1,4 @@
-from app.models import db
+from app.database import db
 from app.models.user import User
 from app.models.rol import Rol
 from flask import Response, jsonify
